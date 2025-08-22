@@ -1,4 +1,4 @@
-***Revenue Rescue***
+# Revenue Rescue
 
 AI-powered, chat-with-your-CSV data assistant. Upload a CSV, ask questions in natural language, and get instant business insights, summaries, and dashboards—no formulas or SQL required. 
 revenue-rescue.vercel.app
@@ -93,24 +93,24 @@ git clone https://github.com/Keshav1605/Revenue-Rescue.git
 cd Revenue-Rescue
 
 2) *Install*
-# choose one
+- choose one
 pnpm install
-# or
+- or
 npm install
 
 3) *Configure environment*
 
 Create a .env.local in the project root. Common variables you may need (adjust to your actual stack):
 
-# If using OpenAI via Vercel AI SDK or direct:
+- If using OpenAI via Vercel AI SDK or direct:
 OPENAI_API_KEY=sk-...
 
-# If using OpenRouter or other providers:
-# OPENROUTER_API_KEY=...
-# ANTHROPIC_API_KEY=...
-# GOOGLE_API_KEY=...
+- If using OpenRouter or other providers:
+- OPENROUTER_API_KEY=...
+- ANTHROPIC_API_KEY=...
+- GOOGLE_API_KEY=...
 
-# Optional Next.js / app settings
+- Optional Next.js / app settings
 NEXT_PUBLIC_APP_NAME="Revenue Rescue"
 MAX_UPLOAD_MB=10
 
@@ -127,7 +127,7 @@ Then open http://localhost:3000.
 
 5) Build & start (production)
 pnpm build && pnpm start
-# or
+- or
 npm run build && npm run start
 
 **Configuration**
