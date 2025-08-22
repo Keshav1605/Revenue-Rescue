@@ -119,7 +119,7 @@ Not sure which provider is wired up? Open lib/ or any server action in app/ that
 
 4) Run dev server
 pnpm dev
-# or
+or
 npm run dev
 
 
