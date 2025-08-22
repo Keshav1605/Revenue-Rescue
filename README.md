@@ -5,7 +5,7 @@ revenue-rescue.vercel.app
 
 **Live demo**: revenue-rescue.vercel.app (deployed on Vercel). 
 
-**Table of Contents**
+#Table of Contents
 
 Features
 
@@ -31,7 +31,7 @@ Contributors
 
 License
 
-**Features**
+# Features
 
 CSV upload & parsing: Drag‑and‑drop CSVs (up to ~10 MB) to start a session. 
 revenue-rescue.vercel.app
@@ -51,7 +51,7 @@ revenue-rescue.vercel.app
 Deployed on Vercel; repo auto-synced from v0.app (per repo overview). 
 GitHub
 
-**Tech Stack**
+# Tech Stack
 
 Framework: Next.js (TypeScript, App Router indicated by /app), CSS. 
 GitHub
@@ -66,7 +66,7 @@ AI layer: The live app markets “advanced AI” chat; exact provider isn’t de
 
 If you confirm which AI SDK/LLM you’re using, I can pin exact dependencies and examples.
 
-**Project Structure**
+# Project Structure
 
 Based on the repository listing: 
 GitHub
@@ -84,7 +84,7 @@ Revenue-Rescue/
 ├─ postcss.config.mjs
 └─ README.md
 
-**Getting Started**
+# Getting Started
 
 *Prereqs*: Node.js ≥ 18, pnpm or npm, and a modern browser.
 
@@ -130,7 +130,7 @@ pnpm build && pnpm start
 - or
 npm run build && npm run start
 
-**Configuration**
+# Configuration#
 
 Upload limits: UI mentions support for files up to ~10 MB; if you need more, configure your file handler and Vercel/Next limits accordingly. 
 revenue-rescue.vercel.app
@@ -140,7 +140,7 @@ Model/provider: Set your API key(s) and model names in .env.local and the AI cli
 Internationalization: The chat page displays language options (English/Hindi/Hinglish). If you want full i18n, wire translations via next-intl or @lingui and reflect in UI. 
 revenue-rescue.vercel.app
 
-**Usage**
+# Usage
 
 Upload CSV on /chat. 
 revenue-rescue.vercel.app
@@ -173,7 +173,7 @@ List SKUs with stockouts in the last 30 days and their lost-sales estimates.
 
 Once you confirm the charting library (if any) and response schema, I can add copy‑paste prompt + code examples.
 
-**Documentation**
+# Documentation
 
 Live App (Marketing & Onboarding): describes value props, workflow, and feature set. 
 revenue-rescue.vercel.app
@@ -184,7 +184,7 @@ revenue-rescue.vercel.app
 Repo Overview: indicates auto‑sync with v0.app and Vercel deployment hooks. 
 GitHub
 
-**Troubleshooting**
+# Troubleshooting
 
 Nothing happens after upload
 Check browser console for parsing errors; verify CSV is < configured size and is valid UTF‑8.
@@ -198,7 +198,7 @@ Confirm Node version ≥ 18 in project settings and engines (if present). Clear 
 CORS or file-size issues
 If using API routes or server actions, bump body size limit in Next config or route handler.
 
-*Roadmap Ideas*
+# Roadmap Ideas
 
 From the site’s “Future of Data Analysis” section:
 
@@ -217,12 +217,12 @@ Privacy mode (on‑device or ephemeral processing).
 
 Saved analyses & shareable reports.
 
-**Contributors**
+# Contributors
 
 @Keshav1605 — Maintainer. (Repo owner) 
 GitHub
 @Nishant007 - Designer/Developer
 
-**License**
+# License
 
 No license file is present in the repository listing; by default, all rights are reserved unless a license is added. Consider adding MIT or another OSI‑approved license to enable open‑source use. 
