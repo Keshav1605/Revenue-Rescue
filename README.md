@@ -219,8 +219,7 @@ Saved analyses & shareable reports.
 
 # Contributors
 
-@Keshav1605 — Maintainer. (Repo owner) 
-GitHub
+@Keshav1605 — Maintainer/Developer 
 @Nishant007 - Designer/Developer
 
 # License
